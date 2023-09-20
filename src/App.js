@@ -8,8 +8,7 @@ import {
   Code,
   Grid,
   theme,
-  extendTheme,
-  CSSReset
+  Flex,
 } from '@chakra-ui/react';
 import Lefthome from './LeftHome';
 import Righthome from './RightHome';
@@ -19,14 +18,21 @@ import Righthome from './RightHome';
 
 function App() {
   return (
-    <ChakraProvider theme={theme}> <Box color="blue">
+    <ChakraProvider theme={theme}> 
       <Box textAlign="flex-end" fontSize="xl" backgroundColor='#cbcbd4' justifyContent="flex-start" maxWidth={200} maxH={500} paddingLeft="10" borderRadius="20px" maxHeight="10" marginTop={3} marginLeft={7} textColor='black'>  
         <Text> TrainWithUs.</Text>
         
     </Box>
-    <Lefthome/>
-     <Righthome/>
-    </Box>
+    <Flex>
+      <Box>
+          <Lefthome/>
+      </Box>
+      <Box maxWidth={800}>
+          <Righthome/>
+          <Righthome/>
+          <Righthome/>
+        </Box>
+        </Flex>
     </ChakraProvider>
   );
 }
