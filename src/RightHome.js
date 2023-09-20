@@ -11,7 +11,7 @@ import {
 } from '@chakra-ui/react';
    
 
-export default function Lefthome ()  {
+export default function Righthome ()  {
  return (
     <Box backgroundColor='#cbcbd4' borderRadius="10px" width={400} height={400} marginTop={100} marginLeft={7} textAlign="center" textColor="black" justifyItems="center" fontWeight='bolder' paddingTop="50px"> 
         <Text fontSize="l"> Meet your fitness goals with <span> TrainWithUs.</span></Text>
@@ -23,23 +23,6 @@ export default function Lefthome ()  {
         </Text>
      </Box>
 
+ );
 
-
-
-
-
-
-
-
-
- )
-
-
-
-
-
-
-
-
-
-}
+};
