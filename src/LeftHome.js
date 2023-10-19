@@ -18,8 +18,8 @@ export default function Lefthome ()  {
         <Text fontSize="xl"> Meet your fitness goals with <span> TrainWithUs.</span></Text>
         <Text paddingTop={12} fontSize="xl" paddingLeft={10} paddingRight={10}>Improve your nutrition,
          build strength through weightlifting or cardio.
-         <Text paddingTop={12}>  TrainWithUs offers 
-          nutrition plans, a diverse range of workout routines, and expert guidance to help you achieve your fitness goals. 
+         <Text paddingTop={12}>  TrainWithUs offers a
+          nutrition handbook, a diverse range of workout routines, and expert guidance to help you achieve your fitness goals. 
          </Text>
         </Text>
      </Box>
