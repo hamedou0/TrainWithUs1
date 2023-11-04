@@ -31,6 +31,12 @@ function App() {
         <Righthome/>
       </Flex>
       </Box>
+      <Box boxShadow="0 0 10px rgba(0, 0, 0, 3.25)" backgroundColor='#FFEFDF' borderRadius="10px" width={1150} height={440} marginTop={100} marginLeft={7} textAlign="center" textColor="black" justifyItems="center" fontWeight='bolder' paddingTop="50px" paddingLeft="10px" paddingBottom="20px"> 
+        <Text>
+         
+        </Text>
+     </Box>
+
       </ChakraProvider>
   );
 }
