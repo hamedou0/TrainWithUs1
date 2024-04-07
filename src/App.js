@@ -12,11 +12,13 @@ import {
   Card,
   CardBody,
   Center,
+  Button
   
 } from '@chakra-ui/react';
-import Lefthome from './components/LeftHome';
-import Righthome from './components/RightHome';
+import Tophome from './components/LeftHome';
+import RightHome from './components/RightHome';
 import NavBar from './components/navBar';
+import About  from './pages/About';
 
 
 
@@ -26,17 +28,19 @@ function App() {
     <ChakraProvider theme={theme} > 
     <Box>
       <NavBar/>
-      <Flex justify-content= {Center} align-items= {Center}>
+      <Flex >
         <Box >
-          <Lefthome/>
+          <Tophome/>
         </Box>
-        
       </Flex>
-      </Box>
+     </Box>
+     <Flex >
+        <Box >
+          <RightHome/>
+        </Box>
+      </Flex>
       
-        <Text>
-         
-        </Text>
+        
      
      
 

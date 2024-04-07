@@ -13,7 +13,7 @@ import {
   CardBody,
   Button
 } from '@chakra-ui/react';
-import Lefthome from '../LeftHome';
+import Lefthome from '../components/LeftHome';
 import Righthome from '../components/RightHome';
 import NavBar from '../components/navBar';
 import { BrowserRouter, Routes, Route } from

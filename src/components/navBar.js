@@ -14,7 +14,7 @@ import {
   Button, 
   ButtonGroup
 } from '@chakra-ui/react';
-import trainyoulogo from './trainyoulogo.png'; 
+
 
 
  export default function NavBar () { 
