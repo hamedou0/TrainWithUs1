@@ -18,7 +18,9 @@ export default function Exercise ()  {
   
       <div>
         
-        <p>This is the About page.</p>
+      <h1>
+        This is the About page.
+        </h1>
       </div>
     );
   };

@@ -3,7 +3,6 @@ import {
   ChakraProvider,
   Box,
   Text,
-  Link,
   VStack,
   Code,
   Grid,
@@ -14,6 +13,7 @@ import {
   Button, 
   ButtonGroup
 } from '@chakra-ui/react';
+import { Link } from 'react-router-dom'
 
 
 
@@ -29,7 +29,7 @@ import {
           </Text>
     </Box>
     
-    <Button  textAlign="flex-end" fontSize="xl"  justifyContent="flex-start" maxWidth={200} maxH={500} paddingLeft={6}  maxHeight="10" marginTop={3} marginLeft={20} textColor='black' paddingRight={6}>  
+    <Button  textAlign="flex-end" fontSize="xl"  justifyContent="flex-start" maxWidth={200} maxH={500} paddingLeft={6}  maxHeight="10" marginTop={3} marginLeft={20} textColor='black' paddingRight={6} backgroundColor={'g'}>  
             <Text> 
                   Lifestyle.
             </Text>
@@ -41,15 +41,19 @@ import {
     </Button>
     </a>
     <Button  textAlign="flex-end" fontSize="xl"  justifyContent="flex-start" maxWidth={200} maxH={500} paddingLeft={6}  maxHeight="10" marginTop={3} marginLeft={35} textColor='black'paddingRight={6}>  
-          <Text> Exercise.</Text>
+      <Text>
+      Exercise.
+      </Text>
     </Button>
+    
+
 
 
     
  </Box>
  </Box>
 
-
+// return the current time
 
  )
 
