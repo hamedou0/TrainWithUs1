@@ -15,10 +15,12 @@ import {
   Button
   
 } from '@chakra-ui/react';
-import Tophome from './components/LeftHome';
-import RightHome from './components/RightHome';
+
+
 import NavBar from './components/navBar';
 import About  from './pages/About';
+import BottomHome from './components/BottomOfHomePage';
+import TopHome from './components/TopOfHomePage';
 
 
 
@@ -30,13 +32,13 @@ function App() {
       <NavBar/>
       <Flex >
         <Box >
-          <Tophome/>
+          <TopHome/>
         </Box>
       </Flex>
      </Box>
      <Flex >
         <Box >
-          <RightHome/>
+          <BottomHome/>
         </Box>
       </Flex>
       

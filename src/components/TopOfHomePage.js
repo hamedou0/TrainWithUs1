@@ -10,11 +10,11 @@ import {
   theme,
   Img
   
-} from '@chakra-ui/react';
+} from '@chakra-ui/react'; 
 
    
 
-export default function LeftHome ()  {
+export default function TopHome ()  {
  return (
     <Box    borderRadius="10px" width={600} height={240} marginTop={50} marginLeft={350} textAlign="center"   fontWeight='bolder' paddingTop="50px" paddingLeft="10px" paddingBottom="4px"> 
         <Text fontSize={50} textColor="black"> Meet your fitness goals with  TrainWithUs.</Text> 
@@ -22,24 +22,5 @@ export default function LeftHome ()  {
         
         </Text>
      </Box>
-
-
-
-
-
-
-
-
-
-
  )
-
-
-
-
-
-
-
-
-
 }
