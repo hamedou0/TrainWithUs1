@@ -28,6 +28,7 @@ import TopHome from './components/TopOfHomePage';
 function App() {
   return (
     <ChakraProvider theme={theme} > 
+    <Box height={1100}>
     <Box>
       <NavBar/>
       <Flex >
@@ -41,6 +42,7 @@ function App() {
           <BottomHome/>
         </Box>
       </Flex>
+      </Box>
       
         
      
